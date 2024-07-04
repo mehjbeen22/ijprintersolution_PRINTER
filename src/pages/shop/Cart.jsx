@@ -1,22 +1,33 @@
-import React, { useContext, useState, useEffect } from "react";
+import React, { useContext } from "react";
 import { CartContext } from "./CartContext";
 
 const Cart = () => {
   const { cartItems, removeFromCart } = useContext(CartContext);
 
   const allPrice = cartItems
-    .map((items) => items.price)
+    .map((item) => item.price)
     .reduce((acc, curr) => acc + curr, 0);
+
+  // Function to handle removing an item from cart
+  const handleRemoveFromCart = (itemId) => {
+    removeFromCart(itemId);
+  };
+
+  // Function to check if payment method is added
+  const paymentMethodAdded = () => {
+    // Replace with your logic to check if payment method is added
+    return true; // For demonstration purposes; adjust as needed
+  };
 
   // Function to handle proceeding to checkout
   const handleProceedToCheckout = () => {
-    if (totals.totalItems === 0) {
+    if (cartItems.length === 0) {
       alert("Your cart is empty. Add items to proceed.");
     } else if (!paymentMethodAdded()) {
       alert("No payment method added. Add a payment method to proceed.");
     } else {
       // Proceed to checkout logic
-      alert("Proceeding to checkout...");
+      alert("No payment method added. Add a payment method to proceed.");
     }
   };
 
@@ -58,7 +69,7 @@ const Cart = () => {
                   </div>
                   <div className="flex justify-between items-center mt-4">
                     <span className="text-sm">Item Subtotal:</span>
-                    <span className="font-semibold">{item.price}</span>
+                    <span className="font-semibold">${item.price}</span>
                   </div>
                 </div>
               </div>
