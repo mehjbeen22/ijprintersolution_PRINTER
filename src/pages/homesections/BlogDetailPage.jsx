@@ -1,5 +1,6 @@
+import React from "react";
+import { useParams } from "react-router-dom";
 import { blogPosts } from "./blogData";
-import { useParams } from "react-router-dom"; // Assuming you use React Router for routing
 
 const BlogDetailPage = () => {
   // Using useParams to get the dynamic parameter (blog post id) from the URL
@@ -10,7 +11,7 @@ const BlogDetailPage = () => {
 
   // If the post is not found, you can handle it here (e.g., show a 404 page or redirect)
   if (!post) {
-    return <div>Post not found</div>; // Example fallback if post is not found
+    return <div className="text-center text-gray-800 mt-8">Post not found</div>; // Example fallback if post is not found
   }
 
   return (
@@ -18,17 +19,24 @@ const BlogDetailPage = () => {
       <img
         src={post.image}
         alt={post.title}
-        className="mb-4 rounded-lg shadow-md w-full h-80 object-cover"
+        className="mb-8 rounded-lg shadow-md w-full h-80 object-cover"
       />
-      <h2 className="text-3xl font-bold mb-2">{post.title}</h2>
-      <p className="text-gray-600 mb-2">{post.date}</p>
-      <p className="text-gray-700 mb-4">{post.category}</p>
-      <div className="space-y-4">
-        {post.content.map((line, idx) => (
-          <p key={idx} className="text-gray-700">
-            {line}
-          </p>
-        ))}
+      <div className="bg-white rounded-lg shadow-md p-6">
+        <h2 className="text-3xl font-bold mb-4 text-gray-800">{post.title}</h2>
+        <p className="text-gray-600 mb-2">{post.date}</p>
+        <span
+          className="text-gray-700 mb-4 bg-blue-900 text-gray-50 
+              px-2 py-1 rounded"
+        >
+          {post.category}
+        </span>
+        <div className="space-y-4">
+          {post.content.map((line, idx) => (
+            <p key={idx} className="text-gray-700">
+              {line}
+            </p>
+          ))}
+        </div>
       </div>
     </div>
   );

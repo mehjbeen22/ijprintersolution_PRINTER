@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import FeaturesSection from "./FeaturesSection";
 import CustomerReviews from "./CustomerReviews";
 import BlogPosts from "./LatestBlog";
+import LatestProducts from "../shop/LatestProducts";
 
 const HomePage = () => {
   return (
@@ -33,6 +34,7 @@ const HomePage = () => {
       </div>
 
       <FeaturesSection />
+      <LatestProducts />
       <CustomerReviews />
       <BlogPosts />
     </>
