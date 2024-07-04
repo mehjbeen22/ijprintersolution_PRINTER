@@ -8,14 +8,14 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           {/* Logo and Company Info */}
           <div className="col-span-1 md:col-span-2 lg:col-span-1">
-            <h2 className="text-2xl font-bold mb-4">Ij Printer Solution</h2>
+            <h2 className="text-2xl font-bold mb-4">printexpress123</h2>
             <p className="mb-4">
-              Ij Printer Solution is your one-stop solution for all your office
+             printexpress123 is your one-stop solution for all your office
               needs. We provide a wide range of small business and home office
               printers.
             </p>
             <p className="mb-4">Need Help?</p>
-            <p className="mb-4">support@ijprintersolution.com</p>
+            <p className="mb-4">support@printexpress123.com</p>
           </div>
 
           {/* Quick Links */}
@@ -82,7 +82,7 @@ const Footer = () => {
           <div className="col-span-1">
             <h3 className="text-lg font-semibold mb-4">Store Information</h3>
             <p className="mb-4">
-              Copyright 2023 © Ij Printer Solution. All rights reserved.
+              Copyright 2023 ©printexpress123. All rights reserved.
             </p>
             <p>200 N Ashley , Tampa, FL 33690, United States</p>
           </div>

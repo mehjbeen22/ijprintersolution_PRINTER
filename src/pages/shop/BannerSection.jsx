@@ -35,9 +35,9 @@ const BannerSection = () => {
             <h2 className="text-4xl font-bold text-white mb-4">
               Change Tires for Winter Ensure Your Safety
             </h2>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full">
+            <Link to="/shop" className="bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded-full">
               Shop Now
-            </button>
+            </Link>
           </div>
         </div>
       </section>

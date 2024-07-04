@@ -16,10 +16,10 @@ const HomePage = () => {
       >
         <div className="p-6 sm:p-10 lg:p-20 text-center max-w-lg sm:max-w-2xl">
           <h1 className="text-2xl sm:text-4xl font-bold mb-4">
-            IJ Printer Solution
+            printexpress123
           </h1>
           <p className="text-base sm:text-lg lg:text-xl mb-6">
-            IJ Printer Solution is your one-stop solution for all your office
+            printexpress123 is your one-stop solution for all your office
             needs. <br />
             We are an independent e-commerce platform providing small business
             and home office printers.

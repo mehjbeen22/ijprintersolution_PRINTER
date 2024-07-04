@@ -8,28 +8,28 @@ const Disclaimer = () => {
         If you require any more information or have any questions about our
         site’s disclaimer, please feel free to contact us by email at{" "}
         <a
-          href="mailto:support@ijprintersolution.com"
+          href="mailto:support@printexpress123.com"
           className="text-blue-900 underline"
         >
-          support@ijprintersolution.com
+          support@printexpress123.com
         </a>
         .
       </p>
       <p className="mb-4">
         All the information on this website –{" "}
         <a
-          href="https://ijprintersolution.com"
+          href="https://printexpress123.com"
           className="text-blue-900 underline"
           target="_blank"
           rel="noopener noreferrer"
         >
-          https://ijprintersolution.com
+          https://printexpress123.com
         </a>{" "}
         – is published in good faith and for general information purpose only.
-        ijprintersolution. does not make any warranties about the completeness,
+        printexpress123. does not make any warranties about the completeness,
         reliability, and accuracy of this information. Any action you take upon
-        the information you find on this website (ijprintersolution.), is strictly
-        at your own risk. ijprintersolution. will not be liable for any losses
+        the information you find on this website (printexpress123.), is strictly
+        at your own risk. printexpress123. will not be liable for any losses
         and/or damages in connection with the use of our website.
       </p>
       <p className="mb-4">

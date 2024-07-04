@@ -5,12 +5,12 @@ const PrivacyPolicy = () => {
     <div className="max-w-3xl mx-auto px-4 py-8 mt-16 ">
       <h2 className="text-2xl font-bold mb-4">Privacy Policy</h2>
       <p>
-        IJ Printer Solution website is owned by IJ Printer Solution, which is a
+       printexpress123 website is owned byprintexpress123, which is a
         data controller of your personal data.
       </p>
       <p>
         We have adopted this Privacy Policy, which determines how we are
-        processing the information collected by IJ Printer Solution, which also
+        processing the information collected byprintexpress123, which also
         provides the reasons why we must collect certain personal data about
         you. Therefore, you must read this Privacy Policy before using IJ
         Printer Solution website.
@@ -23,7 +23,7 @@ const PrivacyPolicy = () => {
         Personal information we collect:
       </h3>
       <p>
-        When you visit IJ Printer Solution, we automatically collect certain
+        When you visitprintexpress123, we automatically collect certain
         information about your device, including information about your web
         browser, IP address, time zone, and some of the installed cookies on
         your device. Additionally, as you browse the Site, we collect
@@ -59,10 +59,10 @@ const PrivacyPolicy = () => {
         who are uncertain about what information is mandatory are welcome to
         contact us via{" "}
         <a
-          href="mailto:support@ijprintersolution.com"
+          href="mailto:support@printexpress123.com"
           className="text-blue-900 underline"
         >
-          support@ijprintersolution.com
+          support@printexpress123.com
         </a>
         .
       </p>
@@ -125,10 +125,10 @@ const PrivacyPolicy = () => {
         wish to contact us concerning any matter relating to individual rights
         and your Personal Information, you may send an email to{" "}
         <a
-          href="mailto:support@ijprintersolution.com"
+          href="mailto:support@printexpress123.com"
           className="text-blue-900 underline"
         >
-          support@ijprintersolution.com
+          support@printexpress123.com
         </a>
         .
       </p>

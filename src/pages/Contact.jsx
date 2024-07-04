@@ -89,7 +89,7 @@ const Contact = () => {
             United States — 200 N Ashley , Tampa, FL 33690, United States
           </p>
           <h2 className="text-2xl font-semibold mb-4">Email Address</h2>
-          <p>support@ijprintersolution.com</p>
+          <p>support@printexpress123.com</p>
         </div>
       </div>
     </div>

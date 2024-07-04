@@ -62,7 +62,7 @@ const Navbar = () => {
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0">
               <Link to="/" className="text-2xl font-bold">
-                Ij Printer Solution
+                printexpress123
               </Link>
             </div>
             <div className="hidden sm:block sm:ml-6">

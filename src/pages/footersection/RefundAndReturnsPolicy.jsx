@@ -20,7 +20,7 @@ const RefundAndReturnsPolicy = () => {
       </p>
       <p>
         You can inform us of your decision by e-mail at
-        support@ijprintersolution.com
+        support@printexpress123.com
       </p>
       <p>
         We will reimburse you no later than 30 days from the day on which we
@@ -88,7 +88,7 @@ const RefundAndReturnsPolicy = () => {
       <h3 className="text-lg font-bold mt-4">Contact Us:</h3>
       <p>
         If you have any questions about our Returns and Refunds Policy, please
-        contact us by e-mail at support@ijprintersolution.com
+        contact us by e-mail at support@printexpress123.com
       </p>
     </div>
   );

@@ -45,7 +45,7 @@ const reviews = [
   {
     name: "Emily Brown",
     review:
-      "Ij Printer Solution has exceeded my expectations! The printer I bought works like a charm, and the customer support team was very helpful.",
+      "printexpress123 has exceeded my expectations! The printer I bought works like a charm, and the customer support team was very helpful.",
     location: "Chicago, IL",
     image:
       "https://img.freepik.com/free-photo/smiley-businesswoman-posing-outdoors-with-arms-crossed-copy-space_23-2148767055.jpg?t=st=1720073470~exp=1720077070~hmac=f58d0fff3d606916126a4878c1e64a3bfaf3513a28f5db298f4a89bda1337f16&w=740",
@@ -53,7 +53,7 @@ const reviews = [
   {
     name: "Michael Johnson",
     review:
-      "I've been using Ij Printer Solution for a year now, and I'm impressed with the quality and reliability of their products. Highly recommended!",
+      "I've been using printexpress123 for a year now, and I'm impressed with the quality and reliability of their products. Highly recommended!",
     location: "Houston, TX",
     image:
       "https://img.freepik.com/free-photo/brunette-businesswoman-posing_23-2148142767.jpg?t=st=1720074862~exp=1720078462~hmac=cf401f8da919e38130da3cb8f745ace515b14e6b563d9b8ad94f7d99b93810a3&w=740",
@@ -61,7 +61,7 @@ const reviews = [
   {
     name: "Sarah Williams",
     review:
-      "Great experience shopping with Ij Printer Solution. The printer arrived quickly, and setting it up was a breeze. Will buy again!",
+      "Great experience shopping with printexpress123. The printer arrived quickly, and setting it up was a breeze. Will buy again!",
     location: "Miami, FL",
     image:
       "https://img.freepik.com/free-photo/successful-good-looking-businesswoman-wearing-red-jacket-cross-arms-confident-smiling-self-assured-assertive-knowing-how-work-customers-managing-own-business-white-wall_176420-35497.jpg?t=st=1720074879~exp=1720078479~hmac=8c9662827aa76bd48f2fe9d273a3f2492ad72e763d4e331f8e0d8e7d52b785ea&w=740",
@@ -69,7 +69,7 @@ const reviews = [
   {
     name: "David Smith",
     review:
-      "The customer service at Ij Printer Solution is outstanding. They were patient and helped me find the perfect printer for my home office.",
+      "The customer service at printexpress123 is outstanding. They were patient and helped me find the perfect printer for my home office.",
     location: "Seattle, WA",
     image:
       "https://img.freepik.com/free-photo/elegant-man-with-folded-arms_1262-727.jpg?t=st=1720074814~exp=1720078414~hmac=734da8ff22e8f0e26fe3fe08b2f4339b779032a87da191059a8990b1ef42dbe9&w=740",

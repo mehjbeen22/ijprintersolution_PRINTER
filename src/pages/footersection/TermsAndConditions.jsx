@@ -4,21 +4,21 @@ const TermsAndConditions = () => {
   return (
     <div className="max-w-3xl mx-auto px-4 py-8 mt-16 text-black">
       <h2 className="text-2xl font-bold mb-4">Terms and Conditions</h2>
-      <p>Welcome to IJ Printer Solution!</p>
+      <p>Welcome toprintexpress123!</p>
       <p>
         These terms and conditions outline the rules and regulations for the use
-        of IJ Printer Solution’s Website, located at
-        https://ijprintersolution.com.
+        ofprintexpress123’s Website, located at
+        https://printexpress123.com.
       </p>
       <p>
         By accessing this website, we assume you accept these terms and
-        conditions. Do not continue to use IJ Printer Solution if you do not
+        conditions. Do not continue to useprintexpress123 if you do not
         agree to take all of the terms and conditions stated on this page.
       </p>
       <h3 className="text-lg font-bold mt-4">Cookies:</h3>
       <p>
         The website uses cookies to help personalize your online experience. By
-        accessing IJ Printer Solution, you agreed to use the required cookies.
+        accessingprintexpress123, you agreed to use the required cookies.
       </p>
       <p>
         A cookie is a text file that is placed on your hard disk by a web page
@@ -39,18 +39,18 @@ const TermsAndConditions = () => {
       </p>
       <h3 className="text-lg font-bold mt-4">License:</h3>
       <p>
-        Unless otherwise stated, IJ Printer Solution and/or its licensors own
+        Unless otherwise stated,printexpress123 and/or its licensors own
         the intellectual property rights for all material on IJ Printer
         Solution. All intellectual property rights are reserved. You may access
-        this from IJ Printer Solution for your own personal use subjected to
+        this fromprintexpress123 for your own personal use subjected to
         restrictions set in these terms and conditions.
       </p>
       <p>You must not:</p>
       <ul className="list-disc ml-8 mb-4">
-        <li>Copy or republish material from IJ Printer Solution</li>
-        <li>Sell, rent, or sub-license material from IJ Printer Solution</li>
-        <li>Reproduce, duplicate or copy material from IJ Printer Solution</li>
-        <li>Redistribute content from IJ Printer Solution</li>
+        <li>Copy or republish material fromprintexpress123</li>
+        <li>Sell, rent, or sub-license material fromprintexpress123</li>
+        <li>Reproduce, duplicate or copy material fromprintexpress123</li>
+        <li>Redistribute content fromprintexpress123</li>
       </ul>
       <p>This Agreement shall begin on the date hereof.</p>
       <p>
@@ -58,15 +58,15 @@ const TermsAndConditions = () => {
         opinions and information in certain areas of the website. IJ Printer
         Solution does not filter, edit, publish or review Comments before their
         presence on the website. Comments do not reflect the views and opinions
-        of IJ Printer Solution, its agents, and/or affiliates. Comments reflect
+        ofprintexpress123, its agents, and/or affiliates. Comments reflect
         the views and opinions of the person who posts their views and opinions.
-        To the extent permitted by applicable laws, IJ Printer Solution shall
+        To the extent permitted by applicable laws,printexpress123 shall
         not be liable for the Comments or any liability, damages, or expenses
         caused and/or suffered as a result of any use of and/or posting of
         and/or appearance of the Comments on this website.
       </p>
       <p>
-        IJ Printer Solution reserves the right to monitor all Comments and
+       printexpress123 reserves the right to monitor all Comments and
         remove any Comments that can be considered inappropriate, offensive, or
         causes breach of these Terms and Conditions.
       </p>
@@ -91,7 +91,7 @@ const TermsAndConditions = () => {
         </li>
       </ul>
       <p>
-        You hereby grant IJ Printer Solution a non-exclusive license to use,
+        You hereby grantprintexpress123 a non-exclusive license to use,
         reproduce, edit and authorize others to use, reproduce and edit any of
         your Comments in any and all forms, formats, or media.
       </p>
@@ -140,7 +140,7 @@ const TermsAndConditions = () => {
         that: (a) the link would not make us look unfavorably to ourselves or to
         our accredited businesses; (b) the organization does not have any
         negative records with us; (c) the benefit to us from the visibility of
-        the hyperlink compensates the absence of IJ Printer Solution; and (d)
+        the hyperlink compensates the absence ofprintexpress123; and (d)
         the link is in the context of general resource information.
       </p>
       <p>
@@ -152,7 +152,7 @@ const TermsAndConditions = () => {
       <p>
         If you are one of the organizations listed in paragraph 2 above and are
         interested in linking to our website, you must inform us by sending an
-        e-mail to IJ Printer Solution. Please include your name, your
+        e-mail toprintexpress123. Please include your name, your
         organization name, contact information as well as the URL of your site,
         a list of any URLs from which you intend to link to our Website, and a
         list of the URLs on our site to which you would like to link. Wait 2-3
@@ -169,7 +169,7 @@ const TermsAndConditions = () => {
         </li>
       </ul>
       <p>
-        No use of IJ Printer Solution’s logo or other artwork will be allowed
+        No use ofprintexpress123’s logo or other artwork will be allowed
         for linking absent a trademark license agreement.
       </p>
       <h3 className="text-lg font-bold mt-4">Content Liability:</h3>
