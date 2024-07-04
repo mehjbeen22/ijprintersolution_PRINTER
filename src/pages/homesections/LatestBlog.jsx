@@ -16,8 +16,8 @@ const LatestBlog = () => {
               <h2 className="text-xl font-bold mb-2">{post.title}</h2>
               <p className="text-gray-600 mb-2">{post.date}</p>
               <span
-                className="text-gray-700 mb-4 font-semibold text-blue-900 
-               py-1 rounded"
+                className="text-white bg-blue-900 mb-4 font-semibold
+               py-1 rounded  px-2"
               >
                 {post.category}
               </span>

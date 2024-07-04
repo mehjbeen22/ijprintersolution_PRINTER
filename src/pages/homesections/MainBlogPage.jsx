@@ -4,7 +4,7 @@ import { blogPosts } from "./blogData";
 
 const LatestBlog = () => {
   return (
-    <div className="p-4">
+    <div className="p-4 mt-16">
       <h1 className="text-3xl font-bold text-center mb-8">Our Blogs </h1>
       <div className="grid grid-cols-1 gap-8">
         {blogPosts.map((post, index) => (
@@ -22,7 +22,10 @@ const LatestBlog = () => {
             <div className="md:w-2/3 p-4">
               <h2 className="text-xl font-bold mb-2">{post.title}</h2>
               <p className="text-gray-600 mb-2">{post.date}</p>
-              <span className="text-gray-700 mb-4 bg-blue-900 text-gray-50 px-2 py-1 rounded">
+              <span
+                className="text-white bg-blue-900 mb-4 font-semibold
+               py-1 rounded  px-2"
+              >
                 {post.category}
               </span>
               <p className="text-gray-800">{post.content[0]}</p>

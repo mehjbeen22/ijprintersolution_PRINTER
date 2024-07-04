@@ -25,8 +25,8 @@ const BlogDetailPage = () => {
         <h2 className="text-3xl font-bold mb-4 text-gray-800">{post.title}</h2>
         <p className="text-gray-600 mb-2">{post.date}</p>
         <span
-          className="text-gray-700 mb-4 bg-blue-900 text-gray-50 
-              px-2 py-1 rounded"
+          className="text-white bg-blue-900 mb-4 font-semibold
+               py-1 px-2 rounded"
         >
           {post.category}
         </span>

@@ -1,15 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Link } from "react-router-dom";
+import ShoppingCartIcon from "@mui/icons-material/ShoppingCart";
+import { CartContext } from "./shop/CartContext";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
+  const { cartItems } = useContext(CartContext);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
   return (
-    <nav className="bg-blue-900 text-white shadow-lg">
+    <nav className="bg-blue-900 text-white shadow-lg fixed w-full top-0 z-50">
       <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-between h-16">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -106,6 +109,18 @@ const Navbar = () => {
                 >
                   Care Pack
                 </Link>
+                <Link
+                  to="/cart"
+                  className="relative text-white hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center"
+                >
+                  <ShoppingCartIcon />
+                  <span className="ml-2">Cart</span>
+                  {cartItems.length > 0 && (
+                    <span className="absolute top-0 right-0 inline-block w-6 h-6 bg-red-600 text-white text-xs font-bold rounded-full flex items-center justify-center transform -translate-y-2 translate-x-2">
+                      {cartItems.length}
+                    </span>
+                  )}
+                </Link>
               </div>
             </div>
           </div>
@@ -156,6 +171,18 @@ const Navbar = () => {
               className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Care Pack
+            </Link>
+            <Link
+              to="/cart"
+              className="relative text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium flex items-center"
+            >
+              <ShoppingCartIcon />
+              <span className="ml-2">Cart</span>
+              {cartItems.length > 0 && (
+                <span className="absolute top-0 right-0 inline-block w-6 h-6 bg-red-600 text-white text-xs font-bold rounded-full flex items-center justify-center transform -translate-y-2 translate-x-2">
+                  {cartItems.length}
+                </span>
+              )}
             </Link>
           </div>
         </div>

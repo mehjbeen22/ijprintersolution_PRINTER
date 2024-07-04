@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 import { printerData } from "./printerData";
 import BannerSection from "./BannerSection";
 
@@ -33,12 +33,13 @@ const LatestProducts = () => {
                   <h3 className="text-xl font-bold mb-2">{product.name}</h3>
                   <p className="text-gray-600 mb-2">{product.category}</p>
                   <p className="text-gray-700 mb-4">{product.description}</p>
-                  <button
+                  <Link
+                    to="/shop"
                     className="bg-blue-900 hover:bg-blue-800 text-white py-2 px-4 
                   rounded"
                   >
                     Shop Now
-                  </button>
+                  </Link>
                 </div>
               </div>
             ))}

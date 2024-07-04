@@ -23,9 +23,9 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="hover:text-gray-200">
+                <Link to="/" className="hover:text-gray-200">
                   Home
-                </a>
+                </Link>
               </li>
               <li>
                 <Link to="/shop" className="hover:text-gray-200">
@@ -84,7 +84,7 @@ const Footer = () => {
             <p className="mb-4">
               Copyright 2023 © Ij Printer Solution. All rights reserved.
             </p>
-            <p>200 N Ashley Dr, Tampa, FL 33602, United States</p>
+            <p>200 N Ashley , Tampa, FL 33690, United States</p>
           </div>
         </div>
       </div>
