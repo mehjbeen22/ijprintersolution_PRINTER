@@ -33,7 +33,7 @@ const Navbar = () => {
                   stroke="currentColor"
                   aria-hidden="true"
                 >
-                  <path
+                  <paths
                     strokeLinecap="round"
                     strokeLinejoin="round"
                     strokeWidth="2"
