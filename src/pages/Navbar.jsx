@@ -103,12 +103,12 @@ const Navbar = () => {
                 >
                   Contact Us
                 </Link>
-                <Link
+                {/* <Link
                   to="/care-pack"
                   className="text-white hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   Care Pack
-                </Link>
+                </Link> */}
                 <Link
                   to="/cart"
                   className="relative text-white hover:bg-blue-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium flex items-center"
@@ -166,12 +166,12 @@ const Navbar = () => {
             >
               Contact Us
             </Link>
-            <Link
+            {/* <Link
               to="/care-pack"
               className="text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
             >
               Care Pack
-            </Link>
+            </Link> */}
             <Link
               to="/cart"
               className="relative text-white hover:bg-blue-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium flex items-center"
